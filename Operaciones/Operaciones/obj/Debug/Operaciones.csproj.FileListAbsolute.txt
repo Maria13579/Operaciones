@@ -1,0 +1,7 @@
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\bin\Debug\Operaciones.exe
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\bin\Debug\Operaciones.pdb
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.csprojAssemblyReference.cache
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.CoreCompileInputs.cache
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.exe
+C:\Users\ACF_10\source\repos\Maria13579\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.pdb

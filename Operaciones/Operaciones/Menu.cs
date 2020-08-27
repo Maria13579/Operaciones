@@ -9,21 +9,39 @@ namespace Operaciones
 {
     class Menu
     {
-        public op=0;
-        public  Menu()
+    
+        public int ListMenu()
         {
+            int op = 0;
 
+            bool estado = true;
+                Console.WriteLine("---------Menu de Opciones---------");
+                Console.WriteLine("1. Adicion ");
+                Console.WriteLine("2. Sustraccion");
+                Console.WriteLine("3. Multiplicacion");
+                Console.WriteLine("4. Division");
+                Console.WriteLine("5. Potenciación");
+                Console.WriteLine("6. Radicación");
+                Console.WriteLine("7. Salir");
+                Console.WriteLine("---------------------------------");
+                Console.WriteLine("Digite el numero de opcion que desea");
+            while (estado == true)
+            {
+                try
+                {
+                    op = int.Parse(Console.ReadLine());
+                    estado = false;
+                   
+                  
+                }
+                catch
+                {
+                    Console.WriteLine("Solo valores numericos...");
+                }
 
-            Console.WriteLine("---------Menu de Opciones---------");
-            Console.WriteLine("1. Adicion ");
-            Console.WriteLine("2. Sustraccion");
-            Console.WriteLine("3. Multiplicacion");
-            Console.WriteLine("4. Division");
-            Console.WriteLine("5. Potenciación");
-            Console.WriteLine("6. Radicación");
-            Console.WriteLine("---------------------------------");
-            Console.WriteLine("Digite el numero de opcio que desea");
-           
+            }
+            return op;
+
         }
 
     }
