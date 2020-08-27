@@ -18,41 +18,33 @@ namespace Operaciones
         public string Resultado(char t)
 
         {
-
             double total = 0;
-            char op = 's';
-            while (op != 'n')
-            {
+            
+            
                 if (t == 'a')
                 {
-                    total = opera1.SUMA(total, Pedir());
+                    total = opera1.SUMA(Pedir(), Pedir());
                 }
                 else if (t == 's')
                 {
-                    total = opera2.RESTA(total, Pedir());
+                    total = opera2.RESTA(Pedir(), Pedir());
                 }
                 else if (t== 'm')
                 {
-                    total = opera3.MULTI(total, Pedir());
+                    total = opera3.MULTI(Pedir(), Pedir());
                 }
                 else if (t == 'd')
                 {
-                    total = opera4.DIVI(total, Pedir());
+                    total = opera4.DIVI(Pedir(), Pedir());
                 }
                 else if (t == 'p')
                 {
-                    total = opera5.POTEN(total, Pedir());
+                    total = opera5.POTEN(Pedir(), Pedir());
                 }
                 else if (t == 'r')
                 {
                     total = opera6.RAIZ(Pedir());
                 }
-
-                Console.Write("desea ingresar otro valor [s/n] ");
-
-                op = char.Parse(Console.ReadLine());
-
-            }
 
             return ("el resultado es: " + total);
 

@@ -41,7 +41,7 @@ namespace Operaciones
                 {
                     Console.WriteLine(res.Resultado('r'));
                 }
-
+                Console.WriteLine( "\n \n \n");
 
             }
             Console.ReadKey();
